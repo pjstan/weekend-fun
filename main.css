@@ -11,6 +11,12 @@ body {
     background-color: yellow;
 }
 
+.row6 {
+    text-align: center;
+    border-width: 10px 1px;
+    border-style: solid;
+}
+
 .green {
     background-color: green;
 }
@@ -20,21 +26,26 @@ body {
 }
 
 .dream-lake {
-  font: black;
-  position: relative;
+    font: black;
+    position: relative;
 }
 
 #lake-info {
-  position: absolute;
+    position: absolute;
 }
 
 #lake-info span {
-  color: white;
-   font: bold 24px/45px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+    color: white;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.nav-hike {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
